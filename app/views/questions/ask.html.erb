@@ -1,0 +1,12 @@
+<h2>questionsController#ask</h2>
+
+<p>Find me in app/views/questions/ask.html.erb</p>
+
+<p>Ask your coach anything</p>
+
+<h3><%= @reply %></h3>
+
+<form action="/answer" method="get">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form>
